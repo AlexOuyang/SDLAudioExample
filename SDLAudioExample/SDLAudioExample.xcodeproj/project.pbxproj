@@ -12,7 +12,8 @@
 		56920F3A1CFEDFCC00C13A56 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56920F361CFEDFCC00C13A56 /* SDL2_mixer.framework */; };
 		56920F3B1CFEDFCC00C13A56 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56920F371CFEDFCC00C13A56 /* SDL2_ttf.framework */; };
 		56920F3C1CFEDFCC00C13A56 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56920F381CFEDFCC00C13A56 /* SDL2.framework */; };
-		56920F3F1CFEEB5100C13A56 /* ExampleSDL2Mixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56920F3E1CFEEB5100C13A56 /* ExampleSDL2Mixer.cpp */; };
+		56920F3F1CFEEB5100C13A56 /* ExampleSDL2Mixer1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56920F3E1CFEEB5100C13A56 /* ExampleSDL2Mixer1.cpp */; };
+		56920F411CFEF03800C13A56 /* ExampleSDL2Mixer2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56920F401CFEF03800C13A56 /* ExampleSDL2Mixer2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +35,8 @@
 		56920F361CFEDFCC00C13A56 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
 		56920F371CFEDFCC00C13A56 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
 		56920F381CFEDFCC00C13A56 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
-		56920F3E1CFEEB5100C13A56 /* ExampleSDL2Mixer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExampleSDL2Mixer.cpp; sourceTree = "<group>"; };
+		56920F3E1CFEEB5100C13A56 /* ExampleSDL2Mixer1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExampleSDL2Mixer1.cpp; sourceTree = "<group>"; };
+		56920F401CFEF03800C13A56 /* ExampleSDL2Mixer2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExampleSDL2Mixer2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,9 @@
 		56920F2D1CFEDF2500C13A56 /* SDLAudioExample */ = {
 			isa = PBXGroup;
 			children = (
-				56920F3E1CFEEB5100C13A56 /* ExampleSDL2Mixer.cpp */,
+				56920F3E1CFEEB5100C13A56 /* ExampleSDL2Mixer1.cpp */,
 				56920F2E1CFEDF2500C13A56 /* ExampleSDLAudio.cpp */,
+				56920F401CFEF03800C13A56 /* ExampleSDL2Mixer2.cpp */,
 			);
 			path = SDLAudioExample;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				56920F2F1CFEDF2500C13A56 /* ExampleSDLAudio.cpp in Sources */,
-				56920F3F1CFEEB5100C13A56 /* ExampleSDL2Mixer.cpp in Sources */,
+				56920F411CFEF03800C13A56 /* ExampleSDL2Mixer2.cpp in Sources */,
+				56920F3F1CFEEB5100C13A56 /* ExampleSDL2Mixer1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
